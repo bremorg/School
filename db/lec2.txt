@@ -1,0 +1,11 @@
+In a relational database all information is organized into tables
+Data is represented as a collection of relations 
+A table structure consists of a name and column names; 
+each row is a collecion of related data
+Rows are called tuples
+Columns are referred to as attributes
+Tables are referred to as relations
+Domain refers to a data type
+Domains can be thought of as a set of atomic values
+Degree is the number of attributes 
+Relational schema R = contain attributes such that (A1, A2,..AN)
