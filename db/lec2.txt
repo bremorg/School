@@ -8,4 +8,21 @@ Tables are referred to as relations
 Domain refers to a data type
 Domains can be thought of as a set of atomic values
 Degree is the number of attributes 
-Relational schema R = contain attributes such that (A1, A2,..AN)
+Relational schema R = contain attributes such that (A1, A2,..,AN)
+Relation state is a set of tuples that consititute the relation
+The set of tuples is unordered
+NULL values are allowed but can be problematic because there is no context
+Constraints are restrictions on the actual values allowed in the database
+Inherent or implicit  model based constraints are part of the data model itself
+No two tuples can be identical*
+A superkey is a subset of attributes such that no 2 tuples are identical
+A key is a sueprkey where removing an attributes makes it not a superkey anymore
+Candiate key may have more than 1 key unique to attributes
+Primary key the candidate key chosen to designate unique entries
+Foreign keys relate to primary keys of other relations
+Primary Keys may consist of more than 1 attributes
+Referential Integrity Constraint; a foreign key must exist within that table
+Basic operations are insert update and delete
+Insertion and deletion may not be valid depending on constraints
+Inserting or deleting may not be valid based on primary or foreign keys
+Updating primary or foreign keys will have the same problems 
